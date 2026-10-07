@@ -15,8 +15,35 @@
         </ul>
     </nav>
     <main>
-        <h1>Telefono: 387292930</h1>
-        <h2>Mail: inteligenciaelectricasas@gmail.com</h2>
+        <h1>Contacto</h1>
+        <p>Telefono: 387292930</p>
+        <p>Mail: inteligenciaelectricasas@gmail.com</p>
+        <section>
+            <h2>Envianos tu consulta</h2>
+            <form action="#" method="POST">
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+
+                <div>
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div>
+                    <label for="cantidad">Cantidad de guirnaldas requeridas:</label>
+                    <input type="number" id="cantidad" name="cantidad" min="1" max="100">
+                </div>
+
+                <div>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                </div>
+
+                <button type="submit">Enviar consulta</button>
+            </form>
+        </section>
     </main>
     <footer>
         <a href="https://www.tiktok.com" target="_blank">
