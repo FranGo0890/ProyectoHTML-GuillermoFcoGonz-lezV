@@ -7,47 +7,48 @@
 </head>
 <body>
     <header>
+        <h1>Contacto y Presupuestos</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Indice</a></li>
-                <li><a href="quienes-somos.html">Quienes Somos</a></li>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="galeria.html">Galería y Datos</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
+
     <main>
-        <h1>Contacto</h1>
-        <p>Telefono: 387292930</p>
-        <p>Mail: inteligenciaelectricasas@gmail.com</p>
         <section>
             <h2>Envianos tu consulta</h2>
+            <p>Completá el formulario para solicitar un presupuesto a medida según los metros de guirnalda que necesites.</p>
+            
             <form action="#" method="POST">
                 <div>
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" id="nombre" name="nombre" required>
+                    <label for="nombre">Nombre y Apellido:</label>
+                    <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
                 </div>
-
+                <br>
                 <div>
                     <label for="email">Correo electrónico:</label>
-                    <input type="email" id="email" name="email" required>
+                    <input type="email" id="email" name="email" required placeholder="correo@ejemplo.com">
                 </div>
-
+                <br>
                 <div>
-                    <label for="cantidad">Cantidad de guirnaldas requeridas:</label>
-                    <input type="number" id="cantidad" name="cantidad" min="1" max="100">
+                    <label for="mensaje">Mensaje / Metros requeridos:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required placeholder="Contanos qué tipo de luz preferís..."></textarea>
                 </div>
-
+                <br>
                 <div>
-                    <label for="mensaje">Mensaje:</label>
-                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                    <button type="submit">Enviar Consulta</button>
                 </div>
-
-                <button type="submit">Enviar consulta</button>
             </form>
         </section>
     </main>
+
     <footer>
-         <p> © 2023 Guirnaldas Salta. Todos los derechos reservados.</p>
+        <p> © 2026 Luminarias & Guirnaldas. Todos los derechos reservados.</p>
         <a href="https://www.tiktok.com" target="_blank">
             <img src="img/logotktok.png" alt="NuestroTikTok">
         </a>
